@@ -1,0 +1,98 @@
+
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.container {
+    max-width: 200px;
+    margin: auto;
+    background: rgb(134, 200, 238);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+#balance, #userBalance {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #af904c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #101110;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
+
+.delete-btn:hover {
+    background-color: #da190b;
+}
+
+#exportButton {
+    background-color: #070707;
+}
+
+#exportButton:hover {
+    background-color: #dde4e6;
+}
+
+.hidden {
+    display: none;
+}
+
+.empty-message {
+    text-align: center;
+}
+
+.empty-message img {
+    height: 50px;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
